@@ -1,0 +1,27 @@
+div{
+    box-sizing:border-box;
+    border: 1px solid #000000;
+    width: 100px;
+    height: 100px;
+    margin:2%;
+    padding: 2%;
+    display:inline-block;
+    transition: 2s ease;
+}
+
+div:focus{
+    background-color: greenyellow;
+    
+}
+
+div:hover{
+    width: 200px;
+    background-color: hotpink;
+    transform: skew(45deg);
+}
+.animate{
+    background: #92b901;
+    -webkit-transition: -wibkit-transform 2s;
+    -webkit-border-radius: 5px;
+    
+}
