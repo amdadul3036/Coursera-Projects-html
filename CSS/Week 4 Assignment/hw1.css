@@ -1,0 +1,120 @@
+body {
+  background: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  background-image: url(flywheel.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: row;
+  height: 185px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  size: 20px;
+}
+
+nav {
+  text-transform: Uppercase;
+  font-family: "Times New Roman";
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  background-color: rgb(251, 252, 252, 0.4);
+  width: 130px;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: #fbfcfc;
+  color: #e74c3c;
+}
+
+nav a:focus {
+  background: #fbfcfc;
+  color: #e74c3c;
+}
+
+nav a:active {
+  background: #f7dc6f;
+  color: #1c2833;
+}
+
+h2 {
+  color: #6e2c00;
+  text-transform: uppercase;
+}
+
+.right {
+  display: inline-block;
+  max-width: 67%;
+  text-align: left;
+  color: #2e86c1;
+}
+
+.left {
+  background-color: #0b5345;
+  padding: 6px;
+  margin: 5px;
+  float: left;
+  height: 100vh;
+}
+
+.left img {
+  width: 150px;
+  height: 100px;
+  margin: 6px;
+  display: block;
+  border: 2px solid black;
+}
+
+table {
+  font-family: "Arial";
+  font-size: 15px;
+  width: 70%;
+  line-height: 26px;
+  margin: 0 auto;
+}
+
+tr th {
+  background-color: #117a65;
+  color: #fbfcfc;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid #52be80;
+}
+
+tr td {
+  background-color: rgb(213, 245, 227, 0.8);
+  padding: 3px;
+  padding-left: 1%;
+  color: #17202a;
+  border-radius: 2px;
+  text-shadow: 2px #424949;
+}
+
+tr td:hover {
+  background-color: rgb(213, 245, 227, 1);
+}
+
+.column {
+  text-align: center;
+}
